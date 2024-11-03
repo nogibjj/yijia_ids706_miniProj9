@@ -20,4 +20,3 @@ pypandoc
 nbval==0.10.0
 
 
-

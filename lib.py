@@ -35,3 +35,17 @@ def create_histogram(data, column, filepath):
     plt.close()
 
 
+
+def generate_visualizations(filepath):
+    """Generate visualizations for specific columns and save them as PNG files."""
+    data = load_dataset(filepath)
+
+    # Create and save histograms for selected columns
+    columns = ["Temperature Maximum", "Temperature Minimum", "Precipitation"]
+    image_paths = []
+    for column in columns:
+        image_path = f"{column.lower().replace(' ', '_')}_distribution.png"
+        create_histogram(data, column, image_path)
+        image_paths.append(image_path)
+
+    return image_paths
