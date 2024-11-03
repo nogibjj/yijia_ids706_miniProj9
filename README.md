@@ -14,6 +14,7 @@ You can access the notebook via Google Colab
 https://colab.research.google.com/github/nogibjj/yijia_ids706_miniProj9/blob/main/main.ipynb
 
 Alternatively, click "Open in Colab" within the `main.ipynb` file.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nogibjj/yijia_ids706_miniProj9/blob/main/main.ipynb)
 
 ## File Structure
 
