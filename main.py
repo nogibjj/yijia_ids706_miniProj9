@@ -1,4 +1,4 @@
-from lib import load_dataset, calculate_statistics, generate_visualizations
+from mylib.lib import load_dataset, calculate_statistics, generate_visualizations
 
 file_url = "https://raw.githubusercontent.com/nogibjj/yijia_ids706_miniProj3/main/rdu-weather-history.csv"
 

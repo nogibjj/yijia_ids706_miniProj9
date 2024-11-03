@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from lib import (
+from mylib.lib import (
     load_dataset,
     calculate_statistics,
     create_histogram,

@@ -1,24 +1,28 @@
- yijia_ids706_miniProj9
+# yijia_ids706_miniProj9
 
 ## Python Template
-This project demonstrates data manipulation and visualization in a cloud-hosted Jupyter Notebook (Google Colab).
 
-
-
+This project demonstrates data manipulation and visualization in a cloud-hosted Jupyter Notebook (Google Colab), utilizing Python to perform basic data analysis and visualization tasks.
 
 ## CI/CD Badge
 
+[![Format](https://github.com/nogibjj/yijia_ids706_miniProj9/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/yijia_ids706_miniProj9/actions/workflows/ci.yml)
+
 ## Colab URL 
-https://colab.research.google.com/gist/yijiaduke/fab68c0b21c4d4eb39e7a410d32d9cb6/assn9.ipynb#scrollTo=px46MPFP1obJ
+
+You can access the notebook via Google Colab
+https://colab.research.google.com/github/nogibjj/yijia_ids706_miniProj9/blob/main/main.ipynb
+
+Alternatively, click "Open in Colab" within the `main.ipynb` file.
 
 ## File Structure
 
 - **`.devcontainer/`**: Contains the development container configuration (`devcontainer.json` and a Dockerfile) to ensure a consistent development environment.
 - **`Makefile`**: Provides commands for setup, testing, linting, and formatting the project.
 - **`.github/workflows/`**: Contains CI/CD workflows for GitHub, which trigger actions like setup, linting, and testing when code is pushed to the repository.
-- **`lib.py`**: Contains utility functions like `load_dataset`, `calculate_statistics`,`create_histogram`, and `generate_visualizations`.
+- **`lib.py`**: Contains utility functions like `load_dataset`, `calculate_statistics`, `create_histogram`, and `generate_visualizations`.
 - **`test_lib.py`**: Contains tests for functions in `lib.py`.
-- **`mini9.ipynb`**: Cloud-hosted Jupyter Notebook for data analysis and testing. 
+- **`main.ipynb`**: Cloud-hosted Jupyter Notebook for data analysis and testing. 
 
 
 ## Setup
@@ -26,7 +30,7 @@ https://colab.research.google.com/gist/yijiaduke/fab68c0b21c4d4eb39e7a410d32d9cb
 ### 1. Clone the Repository
 
 ```bash
-git clone git@github.com:nogibjj/yijia_ids706_miniProj2.git
+git clone git@github.com:nogibjj/yijia_ids706_miniProj9.git
 ```
 
 ### 2. Open the Repository in CodeSpace
