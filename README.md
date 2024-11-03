@@ -6,7 +6,7 @@ This project demonstrates data manipulation and visualization in a cloud-hosted 
 
 ## CI/CD Badge
 
-[![Format](https://github.com/nogibjj/yijia_ids706_miniProj9/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/yijia_ids706_miniProj9/actions/workflows/ci.yml)
+[![CI](https://github.com/nogibjj/yijia_ids706_miniProj9/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/yijia_ids706_miniProj9/actions/workflows/ci.yml)
 
 ## Colab URL 
 
